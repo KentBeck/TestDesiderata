@@ -14,7 +14,7 @@ Here are some properties making tests valuable (links lead to 5-minute videos de
 - [Deterministic](https://www.youtube.com/watch?v=PwWyp-wpFiw) — if nothing changes, the test result shouldn’t change.
 - [Predictive](https://www.youtube.com/watch?v=7o5qxxx7SmI) — if the tests all pass, then the code under test should be suitable for production.
 
-Some properties support each other. Automating tests make them faster to run.
+Some properties support each other. Automating tests makes them faster to run.
 
 Some properties interfere with each other. Making tests more predictive of production behavior makes them slower.
 
