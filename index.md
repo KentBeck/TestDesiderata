@@ -1,37 +1,24 @@
-## Welcome to GitHub Pages
+# Test Desiderata
 
-You can use the [editor on GitHub](https://github.com/KentBeck/TestDesiderata/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+Here are some properties making tests valuable (links lead to 5-minute videos describing each property with Kent Beck and Kelly Sutton):
+- [Isolated](https://www.youtube.com/watch?v=HApI2cspQus) — tests should return the same results regardless of the order in which they are run.
+- [Composable](https://www.youtube.com/watch?v=Wf3WXYaMt8E) — I should be able to test different dimensions of variability separately and combine the results.
+- [Fast](https://www.youtube.com/watch?v=L0dZ7MmW6xc) — tests should run quickly.
+- [Inspiring](https://www.youtube.com/watch?v=2Q1O8XBVbZQ) — passing the tests should inspire confidence
+- [Writable](https://www.youtube.com/watch?v=CAttTEUE9HM) — tests should be cheap to write relative to the cost of the code being tested.
+- [Readable](https://www.youtube.com/watch?v=bDaFPACTjj8) — tests should be comprehensible for reader, invoking the motivation for writing this particular test.
+- [Behavioral](https://www.youtube.com/watch?v=5LOdKDqdWYU) — tests should be sensitive to changes in the behavior of the code under test. If the behavior changes, the test result should change.
+- [Structure-insensitive](https://www.youtube.com/watch?v=bvRRbWbQwDU) — tests should not change their result if the structure of the code changes.
+- [Automated](https://www.youtube.com/watch?v=YQlmP08dj6g) — tests should run without human intervention.
+- [Specific](https://www.youtube.com/watch?v=8lTfrCtPPNE) — if a test fails, the cause of the failure should be obvious.
+- [Deterministic](https://www.youtube.com/watch?v=PwWyp-wpFiw) — if nothing changes, the test result shouldn’t change.
+- [Predictive](https://www.youtube.com/watch?v=7o5qxxx7SmI) — if the tests all pass, then the code under test should be suitable for production.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Some properties support each other. Automating tests make them faster to run.
 
-### Markdown
+Some properties interfere with each other. Making tests more predictive of production behavior makes them slower.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Sometimes (and this is the magic), properties only seem to interfere. You can use composability to make tests faster _and_ more predictive.
 
-```markdown
-Syntax highlighted code block
+The original Test Desiderata papers are [here](https://medium.com/@kentbeck_7670/test-desiderata-94150638a4b3) and [here](https://medium.com/@kentbeck_7670/programmer-test-principles-d01c064d7934).
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/KentBeck/TestDesiderata/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
