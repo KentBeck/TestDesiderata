@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Test Desiderata
 
 Desiderata--things wanted or needed.
