@@ -2,6 +2,8 @@
 layout: default
 ---
 
+<script src="https://cdn.usefathom.com/script.js" data-site="SWQYGRYA" defer></script>
+
 # Test Desiderata
 
 Desiderata--things wanted or needed.
